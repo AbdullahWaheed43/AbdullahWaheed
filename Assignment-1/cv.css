@@ -1,0 +1,111 @@
+
+
+body {
+    background-color: rgb(4 108 118);
+}
+
+.main-content {
+    min-height: 1281px;
+    width: 90%;
+    margin: 2rem;
+    background-color: lightblue;
+    padding: 0px;
+    margin: 35px;
+}
+
+.up {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 269px;
+    justify-content: space-between;
+}
+
+.upparpart{
+    flex: 50%;
+}
+
+.upparpart h2{
+    color: red;
+
+}
+.upparpart p{
+    color: red;
+}
+
+.contact{
+    flex: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    border: 20px;
+}
+.contact li{
+    color: red;
+}
+.contact p{
+    color: red;
+    
+}
+.next{
+    display: flex;
+    flex-direction: row;
+}
+.education{
+    flex: 50px;
+    padding: 30px;
+    margin: 20px;
+
+}
+
+
+.skills{
+  flex: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills li{
+    display: inline-block;
+    background-color: rgb(0, 0, 113);
+    color: white;
+    padding: 3px;
+    margin: 1px;
+    border: 0px;
+    border-radius: 2px;
+}
+
+.head{
+    float: right;
+    width: 500px;
+}
+
+
+h2{
+    color: rgb(55, 53, 58);
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+.language{
+    list-style-type: numbers;
+    padding: 2px;
+    text-size-adjust: 20px;
+
+    
+}
+
+.interest{
+    padding: 15px;
+    margin-left: 30px;
+    background-color: lightgreen;
+    color: blue;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+
+

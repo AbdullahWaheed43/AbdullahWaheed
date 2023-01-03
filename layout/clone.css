@@ -1,0 +1,363 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menubar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+
+}
+
+
+.menuitems li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+    margin: 5px;
+}
+
+.menuitems a {
+    text-decoration: none;
+    color: green;
+}
+
+.menuitems .bt {
+    background-color: rgb(8, 198, 8);
+    border: none;
+    border-radius: 5px;
+    padding: 9px 15px;
+    color: white;
+}
+
+
+.second {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(214, 203, 203);
+    height: auto;
+}
+
+.left {
+    flex: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 34px; */
+}
+
+.left h1 {
+    font-size: 60px;
+    padding: 14px 0px;
+
+}
+
+.left p {
+    font-size: 25px;
+    padding: 14px 0px;
+
+}
+
+.right {
+    flex: 50%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    padding: 14px 0px;
+}
+
+.GetStarted {
+
+    padding: 20px 50px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    margin: 14px 0px;
+
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    /* padding: 4% 0px; */
+
+}
+
+.imgCont {
+    padding: 4% 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 16.6%;
+    height: auto;
+    flex-direction: column;
+    border-right: 1px solid white;
+}
+
+.imgCont h4 {
+    font-size: 20PX;
+    color: white;
+    padding: 6% 0px;
+
+}
+
+.fa-search {
+    color: white;
+}
+.fa-podcast {
+    color: white;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    margin: 50px;
+    height: auto;
+}
+.left2{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right2{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right2 h1{
+    font-size: 30px;
+    padding: 20px 30px;
+}
+
+.right2 p{
+    font-size: 15px;
+    padding: 20px 30px;
+}
+
+.portfolio{
+    /* width: 100px; */
+    height: 400px;
+    background-color:  rgb(214, 203, 203);;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.portfolio h1{
+    font-size: 30px;
+    padding: 30px;
+}
+
+.portfolio p{
+    font-size: 15px;
+}
+
+.pics1{
+    display: flex;
+    flex-direction: row;
+    /* height: 500px; */
+}
+
+.pic{
+    flex: 25%;
+}
+.pic img{
+    height: 230px;
+    margin: 0px;
+    padding: 0px;
+    width: 315px;
+    border: 0px;
+}
+
+.pics2 {
+    display: flex;
+    flex-direction: row;
+    /* height: 500px; */
+    margin: -2px;
+    padding: -1px;
+}
+.pic2{
+    flex: 25%;
+}
+.pic2 img{
+    height: 230px;
+    margin: 0px;
+    padding: 0px;
+    width: 315px;
+    border: 0px;
+    padding-top: 0px;
+}
+
+.upfotter {
+    display: flex;
+    flex-direction: row;
+    height: 172px;
+    padding: 0px;
+    margin: -4px;
+    background-color: green;
+}
+
+.statment {
+    display: flex;
+    flex-direction: column;
+    margin: 13px 43px;
+    color: white;
+}
+.statment h1{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.statment p{
+    font-size: 13px;
+    padding: 20px;
+}
+
+.contactus{
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contactus button{
+    background-color: white;
+    border: 0px;
+    color: green;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.contactus a{
+    text-decoration: none;
+    color: green;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    height: 118px;
+}
+.logo .logimg {
+    height: 130px;
+    flex: 5px;
+    padding: 14px;
+    width: 29px;
+    margin: 4px;
+}
+
+.fotter {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    padding: 82px;
+}
+
+.fotter .data {
+    flex: 25%;
+    padding: 14px;
+    margin: 0px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.data p {
+    margin-top: 30px;
+    margin: 39px;
+}
+
+.fotter .quicklink{
+    flex: 25%;
+    padding: 14px;
+    margin: 0px;
+}
+
+.quicklink li{
+    list-style-type: none;
+    padding: 7px;
+    margin-top: 5px;
+    border-bottom: 1px solid green; 
+}
+.quicklink a{
+    text-decoration: none;
+    color: green;
+}
+
+
+.fotter .latestpost {
+    flex: 25%;
+    padding: 14px;
+    margin: 0px;
+}
+
+.latestpost li{
+    list-style-type: none;
+    padding: 7px;
+    margin-top: 5px;
+    border-bottom: 1px solid green; 
+}
+.latestpost a{
+    text-decoration: none;
+    color: green;
+}
+
+.fotter .rabta{
+    flex: 25%;
+    padding: 14px;
+    margin: 0px;
+}
+
+.rabta li{
+    list-style-type: none;
+    padding: 7px;
+    margin-top: 5px;
+    
+}
+
+.copyright{
+    height: 100px;
+    background-color: rgb(216, 247, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright strong{
+    color: darkgreen;
+}
+
+
+
+
+

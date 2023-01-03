@@ -1,0 +1,29 @@
+.img-hover {
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.img-hover:hover {
+  transform: scale(1.2);
+}
+.card-tit {
+  height: 30px;
+  font-size: 15px;
+}
+@media screen and (max-width: 400px) {
+  .card-tit {
+    height: 25px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .card-tit {
+    height: 30px;
+    font-size: 15px;
+  }
+}
+/* @media screen and (max-width: 768px) {
+  .card-tit{
+    height:30px;
+    font-size: 15px;
+  }
+} */
