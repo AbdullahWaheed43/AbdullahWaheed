@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menubar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(87, 87, 228);
+    
+
+}
+
+
+.title h1{
+    color: white;
+}
+
+
+.menuitems li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+    margin: 5px;
+}
+
+.menuitems a {
+    text-decoration: none;
+    color: rgb(221, 232, 221);
+}
+
+
+.nextmenubar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    background-color: rgb(101, 100, 100);
+    
+
+}
+
+.nextmenuitems image{
+    height: 100px;
+    flex: 50%;
+    margin: 2px;
+    padding: 3px;
+}
+
+.nextmenuitems li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+    margin: 5px;
+    flex: 50%;
+
+}
+.nextmenubar .contant{
+    width: 30px;
+    padding: 5px;
+}
+
+.contant h1{
+    width: 60px;
+    color: azure;
+}
+
+.bt1{
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.bt2{
+    background-color: green ;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.bt3{
+    background-color:red;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.bt4{
+    background-color: pink;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.bt5{
+    background-color:yellow;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.lowermenu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(90, 90, 171)
+    
+}
+
+.lowermenu li{
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+    margin: 5px;
+    flex: 50%;
+    color: white;
+}
+
+.belowpicture{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 5px solid yellow;
+    margin: 5px;
+    padding: 10px;
+}
+
+.belowpicture h1{
+    color: yellow;
+}
+
+.new{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.right{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: skyblue;
+
+}
+
+.con h2{
+    color: yellow;
+    align-items: center;
+    text-size-adjust: 40px;
+
+}
+
+.con p{
+    color:  white;
+    text-decoration: solid;
+}
+
+.newjourney{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
